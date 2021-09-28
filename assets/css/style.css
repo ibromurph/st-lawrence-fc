@@ -51,6 +51,12 @@ img#logo {
 
 .banner{
 	width: 100%;
+	height: auto;
 	float: left;
 	background: url(../images/banner.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	padding: 250px 0px 200px 0px;
+    background-color: #000000;
 }
