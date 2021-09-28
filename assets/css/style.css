@@ -47,7 +47,7 @@ img#logo {
    color: #000;
 }
 
-/*------------ NAVIGATION LINKS------------*/
+/*------------ BANNER SECTION------------*/
 
 .banner{
 	width: 100%;
@@ -59,4 +59,34 @@ img#logo {
 	background-position: center;
 	padding: 250px 0px 200px 0px;
     background-color: #000000;
+}
+
+.banner h1{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.banner p{
+	text-align: center;
+	color: #fff;
+}
+
+#join-button {
+    background-color: #ffd200;
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: 50%;
+    
+  }
+
+  .center-btn{
+	text-align: center;
 }
