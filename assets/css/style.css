@@ -71,7 +71,7 @@ img#logo {
 	color: #fff;
 }
 
-#join-button {
+#primary-button {
     background-color: #ffd200;
     border: none;
     border-radius: 12px;
@@ -84,7 +84,7 @@ img#logo {
     margin: 4px 2px;
     cursor: pointer;
     position: 50%;
-    
+    display: inline-block
   }
 
   .center-btn{
