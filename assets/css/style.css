@@ -15,7 +15,14 @@ body {
     font-weight: 300;
 }
 
-/*------------ HEADER AND TAGLINE ------------*/
+/*------------ LOGO ------------*/
+
+.site-logo {
+    float: left;
+    display: inline-block;
+}
+
+/*------------ MAIN HEADER AND TAGLINE ------------*/
 
 .mainsiteheader-and-tagline {
     margin: 0;
