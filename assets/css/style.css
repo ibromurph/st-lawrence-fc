@@ -90,3 +90,7 @@ img#logo {
   .center-btn{
 	text-align: center;
 }
+
+#teaser-hero-copy {
+    margin: 4px 5rem;
+}
