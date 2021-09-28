@@ -47,3 +47,10 @@ img#logo {
    color: #000;
 }
 
+/*------------ NAVIGATION LINKS------------*/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../images/banner.jpg);
+}
