@@ -26,12 +26,25 @@ body {
     font-weight: 300;
 }
 
+header {
+    background-color: black;
+}
+
+/*------------ HEADINGS ------------*/
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: ;
+}
+
 /*------------ LOGO ------------*/
 
 .site-logo {
     float: left;
     display: inline-block;
     padding: 0em 1em 0em 0em;
+    position: center;
 }
 
 .site-logo img {
@@ -43,7 +56,7 @@ body {
 
 .mainsiteheader-and-tagline {
     margin: 0;
-    float: none;
+    float: left;
     clear: none;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -52,14 +65,14 @@ body {
 }
 
 .mainsiteheader {
-    font-size: 48px;
+    font-size: 300%;
     font-weight: bold;
     line-height: 1.25;
     margin: inherit; /*---- Inheriting margin gave me some issues initially-----*/
 }
 
 .tagline {
-    font-size: 20px;
+    font-size: 130%;
     cursor: default;
     margin: inherit;
 }
