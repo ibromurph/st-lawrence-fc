@@ -1,3 +1,48 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+/*------------ FONTS ------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&family=Raleway:wght@900&display=swap');/*------------ Lato/Oswald/Raleway fonts ------------*/
+
+
+/*------------ GENERAL BORDER------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+/*------------ BODY ------------*/
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+/*------------ HEADER AND TAGLINE ------------*/
+
+.mainsiteheader-and-tagline {
+    margin: 0;
+    float: none;
+    clear: none;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #ffd200; /*------------ YELLOW: USED COLOR PICKER OF SLSF CLUB BADGE ------------*/
+}
+
+.mainsiteheader {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: inherit; /*---- Inheriting margin gave me some issues initially-----*/
+}
+
+.tagline {
+    font-size: 20px;
+    cursor: default;
+    margin: inherit;
+}
+
+/*------------ STYLING TO REMOVE UNDERLINE ON A TAG AND COLOR------------*/
+hgroup a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
