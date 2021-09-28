@@ -19,10 +19,12 @@ body {
     font-weight: 300;
 }
 
+
 /*------------ LOGO ------------*/
 img#logo {
     width: 60px;
 }
+
 
 /*------------ NAVIGATION LINKS------------*/
 .bg-dark {
@@ -93,4 +95,47 @@ img#logo {
 
 #teaser-hero-copy {
     margin: 4px 5rem;
+}
+
+/*=====next-match section css =====*/
+.next-match{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #fff;
+	padding: 50px 0px 100px 0px;
+}
+
+.next-match h2{
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.next-match h3{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.next-match h4{
+	text-align: center;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	padding: 5px 0px 7px 0px;
+}
+
+.match-time {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-top: 20px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #000;
+}
+
+.match-time p {
+    margin: 0px;
+	text-align: center;
+	font-weight: 600;
 }
