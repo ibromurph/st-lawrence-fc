@@ -9,6 +9,17 @@
     padding: 0;
     border: none;
 }
+
+/*
+img {
+    height: auto;
+    max-width: 100%;
+}
+a img {
+    border: 0;
+}*/
+
+
 /*------------ BODY ------------*/
 body {
     font-family: Lato, sans-serif;
@@ -20,6 +31,12 @@ body {
 .site-logo {
     float: left;
     display: inline-block;
+    padding: 0em 1em 0em 0em;
+}
+
+.site-logo img {
+    max-width: 300px;
+    max-height: 120px;
 }
 
 /*------------ MAIN HEADER AND TAGLINE ------------*/
@@ -31,6 +48,7 @@ body {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #ffd200; /*------------ YELLOW: USED COLOR PICKER OF SLSF CLUB BADGE ------------*/
+    padding: 1em 0em 2em 0em;
 }
 
 .mainsiteheader {
@@ -52,4 +70,11 @@ hgroup a {
     text-decoration: none;
 }
 
+
+.site-topsection {
+    background-size: cover;
+    background-color: black;
+    clear: both;
+    padding: 1.75em 1.5em;
+}
 
