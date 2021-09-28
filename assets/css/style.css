@@ -4,122 +4,45 @@
 
 
 /*------------ GENERAL BORDER------------*/
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-/*
-img {
-    height: auto;
-    max-width: 100%;
-}
-a img {
-    border: 0;
-}*/
-
-
 /*------------ BODY ------------*/
+
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
 
-header {
-    background-color: black;
-}
-
-/*------------ HEADINGS ------------*/
-h1, h2, h3 {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: ;
-}
-
 /*------------ LOGO ------------*/
-
-.site-logo {
-    float: left;
-    display: inline-block;
-    padding: 0em 1em 0em 0em;
-    position: center;
+img#logo {
+    width: 60px;
 }
-
-
-#logo {
-    max-width: 300px;
-    max-height: 120px;
-    float: left;
-    display: inline-block;
-    padding: 0em 1em 0em 0em;
-    position: center;
-}
-
-/*------------ MAIN HEADER AND TAGLINE ------------*/
-
-.mainsiteheader-and-tagline {
-    margin: 0;
-    float: left;
-    clear: none;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    color: #ffd200; /*------------ YELLOW: USED COLOR PICKER OF SLSF CLUB BADGE ------------*/
-    padding: 1em 0em 2em 0em;
-}
-
-.mainsiteheader {
-    font-size: 300%;
-    font-weight: bold;
-    line-height: 1.25;
-    margin: inherit; /*---- Inheriting margin gave me some issues initially-----*/
-}
-
-.tagline {
-    font-size: 130%;
-    cursor: default;
-    margin: inherit;
-}
-
-/*------------ STYLING TO REMOVE UNDERLINE ON A TAG AND COLOR------------*/
-hgroup a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
-.site-topsection {
-    background-size: cover;
-    background-color: black;
-    clear: both;
-    padding: 1.75em 1.5em;
-}
-
 
 /*------------ NAVIGATION LINKS------------*/
-#nav-menu {
-    font-size: 130%;
-    letter-spacing: 3px;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    color: #ffd200;
+.bg-dark {
+    background-color: #000000!important;
 }
-
-#nav-menu, #siteheader {
-}   
-
-#nav-menu li{
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+.navbar-brand h1{
+   font-weight: bold;
+   color: #ffd200;
 }
-
-#nav-menu a {
-    text-decoration: none;
-    color: inherit;
+.navbar-brand p{
+   font-size: 16px;
+   letter-spacing: 2px;
+   margin: 0px;
 }
-
-#nav-menu a:hover {
-    border-bottom: 3px solid #ffd200;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+   background: #ffd200;
+   color: #000;
 }
