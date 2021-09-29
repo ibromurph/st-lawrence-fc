@@ -1,100 +1,106 @@
 /*------------ FONTS ------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&family=Raleway:wght@900&display=swap');/*------------ Lato/Oswald/Raleway fonts ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&family=Raleway:wght@900&display=swap');
+/*------------ Lato/Oswald/Raleway fonts ------------*/
 
 
 /*------------ GENERAL BORDER------------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 /*------------ BODY ------------*/
 
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
 }
 
 
 /*------------ LOGO ------------*/
 img#logo {
-    width: 60px;
+	width: 60px;
 }
 
 
 /*------------ NAVIGATION LINKS------------*/
 .bg-dark {
-    background-color: #000000!important;
+	background-color: #000000 !important;
 }
-.navbar-brand h1{
-   font-weight: bold;
-   color: #ffd200;
+
+.navbar-brand h1 {
+	font-weight: bold;
+	color: #ffd200;
 }
-.navbar-brand p{
-   font-size: 16px;
-   letter-spacing: 2px;
-   margin: 0px;
+
+.navbar-brand p {
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin: 0px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    transition: 0.3s;
-    text-align: center;
+	color: #fff;
+	transition: 0.3s;
+	text-align: center;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
-   background: #ffd200;
-   color: #000;
+	background: #ffd200;
+	color: #000;
 }
 
 /*------------ BANNER SECTION------------*/
 
-.banner{
+.banner {
 	width: 100%;
 	height: auto;
 	float: left;
 	background: url(../images/banner.jpg);
 	background-size: cover;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-position: center;
 	padding: 250px 0px 200px 0px;
-    background-color: #000000;
+	background-color: #000000;
 }
 
-.banner h1{
+.banner h1 {
 	text-align: center;
 	font-weight: bold;
 	color: #fff;
 }
-.banner p{
+
+.banner p {
 	text-align: center;
 	color: #fff;
 }
 
 #primary-button {
-    background-color: #ffd200;
-    border: none;
-    border-radius: 12px;
-    color: #000000;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-  }
+	background-color: #ffd200;
+	border: none;
+	border-radius: 12px;
+	color: #000000;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
 
-  .center-btn{
+.center-btn {
 	text-align: center;
 }
 
 #teaser-hero-copy {
-    margin: 4px 5rem;
+	margin: 4px 5rem;
 }
 
 /*=====NEXT MATCH SECTION CSS =====*/
-.next-match{
+.next-match {
 	width: 100%;
 	height: auto;
 	float: left;
@@ -102,18 +108,19 @@ img#logo {
 	padding: 50px 0px 100px 0px;
 }
 
-.next-match h2{
+.next-match h2 {
 	text-align: left;
 	font-weight: bold;
 	margin: 0px;
 }
 
-.next-match h3{
+.next-match h3 {
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-.next-match h4{
+
+.next-match h4 {
 	text-align: center;
 	font-weight: bold;
 	background: #000;
@@ -122,99 +129,132 @@ img#logo {
 }
 
 .match-time {
-    width: 100%;
-    float: left;
-    height: auto;
-    margin-top: 20px;
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 20px;
 	padding: 20px 20px 20px 20px;
 	border: 1px solid #000;
 }
 
 .match-time p {
-    margin: 0px;
+	margin: 0px;
 	text-align: center;
 	font-weight: 600;
 }
 
-.next-match iframe{
-    margin-top: 50px;
-    width: 100%;
-    height: 400px;
-  }
+.next-match iframe {
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+}
 
-  section.next-match{
-      background-color: #fff;
-  }
+section.next-match {
+	background-color: #fff;
+}
 
-  /*=====ABOUT US SECTION CSS =====*/
+/*=====ABOUT US SECTION CSS =====*/
 
-  .about-us{
+.about-us {
 	width: 100%;
 	height: auto;
 	float: left;
 	background: #e9e9e9;
-    padding: 50px 0px 100px 0px;
+	padding: 50px 0px 100px 0px;
 }
 
-.about-us h2{
+.about-us h2 {
 	text-align: left;
 	font-weight: bold;
 	margin: 0px;
 }
 
 .card {
-    width: 100%; 
-    margin-bottom: 20px;
-    text-align: center;
-    min-height: 200px;
-}
-.card h3 {
-    text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	min-height: 200px;
 }
 
-  /*=====THE TEAM SECTION CSS =====*/
-.our-team{
+.card h3 {
+	text-align: center;
+}
+
+/*=====THE TEAM SECTION CSS =====*/
+.our-team {
 	width: 100%;
 	height: auto;
 	float: left;
 	background: #fff;
 	padding: 50px 0px 100px 0px;
 }
-.our-team h2{
+
+.our-team h2 {
 	text-align: left;
 	font-weight: bold;
 	margin: 0px;
 }
 
-.carousel-item{
-    background: #e9e9e9;
+.carousel-item {
+	background: #e9e9e9;
 	height: 400px;
 	padding-top: 60px;
 	border-radius: 5px;
-} 
+}
 
-.carousel-caption h5{
+.carousel-caption h5 {
 	background: #000;
 	margin-bottom: 0px;
 	padding-top: 5px;
 	font-weight: bold;
 	color: #ffd200;
 }
-.carousel-caption p{
+
+.carousel-caption p {
 	background: #000;
 	margin: 0px;
 	padding-bottom: 5px;
 }
 
-.team-member{
+.team-member {
 	width: 220px;
 	height: 220px;
 	background: #fff;
 	margin: 0px auto;
 	border-radius: 100%;
 }
-.team-member img{
+
+.team-member img {
 	width: 100%;
 	border-radius: 100%;
 }
 
+.join-us {
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #e9e9e9;
+	padding: 100px 0px 100px 0px;
+}
+
+.join-us h2 {
+	text-align: left;
+	font-weight: bold;
+	margin: 0px;
+}
+
+table {
+	margin-bottom: 20px;
+}
+
+td, th {
+	border: 1px solid gray;
+	text-align: left;
+	padding: 8px;
+}
+
+.join-us iframe {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
