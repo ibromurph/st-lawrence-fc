@@ -339,6 +339,7 @@ footer p {
 
 .phone {
 	display: none;
+	text-align: center;
 }
 
 /*====LARGE DEVICES=====*/
@@ -403,6 +404,7 @@ footer p {
 
 	.phone {
 		display: block;
+		text-align: center;
 	}
 
 	.next-match h2 {
