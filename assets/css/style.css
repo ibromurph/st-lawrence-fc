@@ -145,3 +145,13 @@ img#logo {
   section.next-match{
       background-color: #fff;
   }
+
+  /*=====ABOUT US SECTION CSS =====*/
+
+  .about-us{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #e9e9e9;
+    padding: 50px 0px 100px 0px;
+}
