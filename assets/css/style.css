@@ -83,10 +83,6 @@ img#logo {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: 50%;
-    display: inline-block
   }
 
   .center-btn{
@@ -97,7 +93,7 @@ img#logo {
     margin: 4px 5rem;
 }
 
-/*=====next-match section css =====*/
+/*=====NEXT MATCH SECTION CSS =====*/
 .next-match{
 	width: 100%;
 	height: auto;
@@ -139,3 +135,13 @@ img#logo {
 	text-align: center;
 	font-weight: 600;
 }
+
+.next-match iframe{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+  }
+
+  section.next-match{
+      background-color: #fff;
+  }
