@@ -205,3 +205,16 @@ img#logo {
 	margin: 0px;
 	padding-bottom: 5px;
 }
+
+.team-member{
+	width: 220px;
+	height: 220px;
+	background: #fff;
+	margin: 0px auto;
+	border-radius: 100%;
+}
+.team-member img{
+	width: 100%;
+	border-radius: 100%;
+}
+
