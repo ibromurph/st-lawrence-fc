@@ -22,7 +22,7 @@ body {
 
 
 /*------------ LOGO ------------*/
-img#logo {
+img.logo {
 	width: 60px;
 }
 
@@ -286,3 +286,43 @@ td, th {
 	color:red
 }
 
+/*=====FOOTER SECTIN CSS =====*/
+footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #000;
+	padding: 60px 0px 20px 0px;
+}
+footer tr td a{
+	text-decoration: none;
+	color: #fff;
+}
+footer tr td a:hover{
+	color: #ffd200;
+}
+footer i{
+	font-size: 42px;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	transition: 0.3s;
+} 
+footer i:hover{
+	color: #ffd200;
+}
+footer p{
+	text-align: right;
+	color: #d8d8d8;
+	margin-top: 30px;
+}
+.footer-logo{
+	width: 70px;
+	float: right;
+}
+
+.pc{
+	display:block;
+}
+.phone{
+	display:none;
+}
