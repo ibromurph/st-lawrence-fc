@@ -288,54 +288,71 @@
         <div class="container">
             <h2>Contact Us</h2>
             <p>We are always on the look out for new players of any standard as well as volunteers who do an amazing job
-                in
-                keeping our club running. So if you are interested in playing or any other role (for example coaching,
+                in keeping our club running. So if you are interested in playing or any other role (for example
+                coaching,
                 events team e.g. making the tea!) then please complete the short form below or email us directly at <a
                     href="mailto:info@slsf.co.uk">info@slsf.co.uk</a>.</p>
-            <p>A member of our team will then contact you to give you
-                all the details you require to get started. (NB as part of volunteer registration for coaches you may be
-                required to complete a DBS check).
-            </p>
-            <br>
-            <div class="row">
-                <div class="col-md-10">
-                    <form action="#" method="post">
-                        <div class="col-md-7">
-                            <input class="form-control" id="name" type="text" name="#" placeholder="Your Name" required>
-                        </div>
-                        <div class="col-md-5">
-                            <select class="form-control" required>
-                                <option selected disabled hidden value="">What are you interested in?</option>
-                                <option value="player">Player</option>
-                                <option value="coach">Coach</option>
-                                <option value="parent">Parent</option>
-                            </select>
+            <p>A member of our team will then contact you to give you all the details you require to get started. (NB as
+                part of volunteer registration for coaches you may be required to complete a DBS check)
+                <br>
+                <div class="row">
+                    <div class="col-md-10">
+
+                        <form action="#" method="post">
+
                             <div class="row">
-                                <div class="col-md-7"><input class="form-control" type="email" name="name"
-                                        placeholder="Your Email" required></div>
-                                <div class="col-md-5"><input class="form-control" type="tel" name="tel"
-                                        placeholder="Phone Number"></div>
-                                <div class="row">
-                                    <div class="col-md-7">
-                                        <textarea class="form-control" rows="4" cols="50"
-                                            placeholder="Comment or Message..." required></textarea>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <input class="form-control" type="file">
-                                        <small><sup id="mandatory">*</sup>- This field is mandatory</small>
-                                    </div>
+                                <div class="col-md-7">
+                                    <label for="name">Name<sup id="mandatory">*</sup>:</label>
+                                    <input class="form-control" id="name" type="text" name="#" placeholder="Your Name"
+                                        required>
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="interested-in">Position of interest<sup id="mandatory">*</sup>:</label>
+                                    <select class="form-control" id="interested-in" required>
+                                        <option selected disabled hidden value="">What are you interested in?</option>
+                                        <option value="player">Player</option>
+                                        <option value="coach">Coach</option>
+                                        <option value="parent">Parent</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <label for="email">Email<sup id="mandatory">*</sup>:</label>
+                                    <input class="form-control" type="email" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="tel">Telephone number:</label>
+                                    <input class="form-control" id="tel" type="tel" name="tel"
+                                        placeholder="Phone Number">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <label for="comment">Comment below<sup id="mandatory">*</sup>:</label>
+                                    <textarea class="form-control" id="comment" rows="4" cols="50"
+                                        placeholder="Comment or message us..." required></textarea>
+                                </div>
+                                <div class="col-md-5">
+                                    <label for="file">Attachment:</label>
+                                    <input class="form-control" id="file" type="file">
+                                    <small><sup id="mandatory">*</sup>- This field is mandatory</small>
                                 </div>
                             </div>
                             <br>
-
-                            <input class="btn btn-primary" type="submit" value="Submit">
-                    </form>
-
+                            <div class="submit-button"><input class="btn btn-primary" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2"></div>
                 </div>
-                <div class="col-md-2"></div>
-            </div>
         </div>
     </section>
+
 
     <!-- JavaScript CDN Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
