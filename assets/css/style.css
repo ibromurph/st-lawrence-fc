@@ -280,3 +280,18 @@ td, th {
 	margin-bottom: 20px;
 	background: #f8f8f8;
 }
+
+.submit-button {
+	background-color: #ffd200; 
+	important:  !important;
+	border: none;
+	border-radius: 12px;
+	color: #000000;
+	padding: 55px55px;
+	font-size: 20px;
+}
+
+#mandatory {
+	color:red
+}
+
