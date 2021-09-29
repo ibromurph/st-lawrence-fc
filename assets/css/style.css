@@ -233,8 +233,9 @@ section.next-match {
 	width: 100%;
 	height: auto;
 	float: left;
-	background: #e9e9e9;
-	padding: 100px 0px 100px 0px;
+	background: black;
+	padding: 50px 0px 100px 0px;
+	color: #ffd200;
 }
 
 .join-us h2 {
@@ -248,7 +249,7 @@ table {
 }
 
 td, th {
-	border: 1px solid gray;
+	border: 4px solid #e9e9e9;
 	text-align: left;
 	padding: 8px;
 }
