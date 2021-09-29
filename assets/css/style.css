@@ -192,3 +192,16 @@ img#logo {
 	padding-top: 60px;
 	border-radius: 5px;
 } 
+
+.carousel-caption h5{
+	background: #000;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	font-weight: bold;
+	color: #ffd200;
+}
+.carousel-caption p{
+	background: #000;
+	margin: 0px;
+	padding-bottom: 5px;
+}
