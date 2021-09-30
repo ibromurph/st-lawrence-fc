@@ -462,8 +462,9 @@ footer p {
 
 	.next-match h2,
 	.about-us h2,
-	.join-us h2, .our-team h2,
-	.contact-us h2		{
+	.join-us h2,
+	.our-team h2,
+	.contact-us h2 {
 		text-align: center;
 	}
 
