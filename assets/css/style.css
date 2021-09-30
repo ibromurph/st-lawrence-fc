@@ -176,6 +176,13 @@ section.next-match {
 	padding: 0px;
 }
 
+#get-directions {
+	color:black;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
 /*=====ABOUT US SECTION CSS =====*/
 
 .about-us {
@@ -240,11 +247,12 @@ section.next-match {
 	border-radius: 5px;
 }
 
-.carousel-caption h5 {
+.team-role {
 	background: #000;
 	margin-bottom: 0px;
 	padding-top: 5px;
 	font-weight: bold;
+	font-size: 16px;
 	color: #ffd200;
 }
 
