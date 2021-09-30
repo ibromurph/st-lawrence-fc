@@ -427,6 +427,13 @@ footer p {
 /*===== Mobile, tab and medium & small device =====*/
 @media screen and (max-width: 768px) {
 
+	#siteheader {
+		font-weight: bold;
+		color: #ffd200;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+
 	.banner {
 		width: 100%;
 		height: auto;
