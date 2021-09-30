@@ -23,12 +23,12 @@
 
 <body>
 
-<header>
+<header aria-label="Header">
     <div class="top-fixed">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.html" rel="home">
-                  <img src="assets/images/slsf-transparent-logo.png" alt="SLSF"
+                  <img src="assets/images/slsf-transparent-logo.png" alt="SLSF logo - Click to go to top of the page"
                         class="logo">
                 </a>
    <a class="navbar-brand" href="index.html" rel="home">
@@ -70,7 +70,7 @@
 </div>
 </header>
 
-    <section class="banner" id="welcome">
+    <section class="banner" id="welcome" aria-label="Banner">
         <div class="container">
             <h1 id="hero-copy">Welcome to SLSF</h1>
             <div id="teaser-hero-copy">
@@ -78,7 +78,7 @@
                     developing the players technical, tactical and physical; while enjoying the beautiful game.
             </div>
             <div class="center-btn">
-                <a href="#join-us" id="primary-button">Join us</a>
+                <a href="#join-us" id="primary-button" title="Same page: Go to Join Us section">Join us</a>
             </div>
         </div>
     </section>
@@ -96,36 +96,35 @@
                     <div class="row">
                         <div class="col-5">
                             <p class="teams">St Lawrence FC</p>
-                            <img src="assets/images/slsf-badge.png" alt="home team badge" class="img-fluid">
+                            <img src="assets/images/slsf-badge.png" alt="home team badge - st lawrence fc" class="img-fluid">
                         </div>
                         <div class="col-2" id="versus">
                             <h3>VS</h3>
                         </div>
                         <div class="col-5">
                             <p class="teams">Pinner Albion FC</p>
-                            <img src="assets/images/pinner-albion-badge.png" alt="away team badge" class="img-fluid">
+                            <img src="assets/images/pinner-albion-badge.png" alt="away team badge - pinner albion fc" class="img-fluid">
                         </div>
                     </div>
 
 
                     <div class="match-time">
                         <!---Match KO time box-->
-                        <p>Location: West Hendon Playings Fields</p>
+                        <p>Location: West Hendon Playing Fields</p>
                         <p>Kick Off: 10:30am</p>
                         <p>Meet Up: 09:30am</p>
                         <p>Referee: Mike Mason</p>
-                        <a
-                            href="https://www.google.com/maps/dir/51.4204545,-0.0350898/west+hendon+playing+fields/@51.4963901,-0.3045215,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4876113d83b2672b:0x3038215e86134d84!2m2!1d-0.2484893!2d51.5805015">
+                        <a title="Opens new tab: Get directions to West Hendon Playing Fields" aria-label="Opens new tab: Get directions to West Hendon Playing Fields" href="https://www.google.com/maps/dir/51.4204545,-0.0350898/west+hendon+playing+fields/@51.4963901,-0.3045215,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x4876113d83b2672b:0x3038215e86134d84!2m2!1d-0.2484893!2d51.5805015" target="_blank">
                             <p>Get Directions</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
 
-                <div class="col-md-6">
+                <div class="col-md-6" role="application">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9917.322955054451!2d-0.2484893!3d51.5805015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3038215e86134d84!2sWest%20Hendon%20Playing%20Field!5e0!3m2!1sen!2suk!4v1632871190181!5m2!1sen!2suk"
-                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google maps"></iframe>
                 </div>
             </div>
 
@@ -267,7 +266,7 @@
                         <tr>
                             <td scope="row">Saturday</td>
                             <td>10:30am - 12.30pm</td>
-                            <td>West Hendon Playings Fields</td>
+                            <td>West Hendon Playing Fields</td>
                         </tr>
                         <tr>
                             <td scope="row">Tuesday</td>
@@ -276,30 +275,30 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-md-4 gmap" id="gmap1">
+                <div class="col-md-4 gmap" role="application">
                     <h3>Tuesday</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9926.14364889831!2d-0.233933!3d51.5400714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a27308a92d2a9cc!2sCapital%20City%20Academy!5e0!3m2!1sen!2suk!4v1632888332322!5m2!1sen!2suk"
-                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google maps"></iframe>
                 </div>
-                <div class="col-md-4 gmap">
+                <div class="col-md-4 gmap" role="application">
                     <h3>Saturday</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9917.322955054451!2d-0.2484893!3d51.5805015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3038215e86134d84!2sWest%20Hendon%20Playing%20Field!5e0!3m2!1sen!2suk!4v1632888297293!5m2!1sen!2suk"
-                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google maps"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact-us" id="contact-us">
+    <section class="contact-us" id="contact-us" aria-label="Contact Us">
         <div class="container">
             <h2>Contact Us</h2>
             <p>We are always on the look out for new players of any standard as well as volunteers who do an amazing job
                 in keeping our club running. So if you are interested in playing or any other role (for example
                 coaching,
                 events team e.g. making the tea!) then please complete the short form below or email us directly at <a
-                    href="mailto:info@slsf.co.uk">info@slsf.co.uk</a>.</p>
+                    href="mailto:info@slsf.co.uk?subject=I want some info about St Lawrence FC" title="Opens new email in your web client">info@slsf.co.uk</a>.</p>
             <p>A member of our team will then contact you to give you all the details you require to get started. (NB as
                 part of volunteer registration for coaches you may be required to complete a DBS check)
                 <br>
@@ -310,14 +309,14 @@
 
                             <div class="row">
                                 <div class="col-md-7">
-                                    <label for="name">Name<sup class="mandatory">*</sup>:</label>
-                                    <input class="form-control" id="name" type="text" name="#" placeholder="Your Name"
+                                    <label for="name" aria-labelledby="name">Name<sup class="mandatory">*</sup>:</label>
+                                    <input class="form-control" id="name" title="Name" type="text" name="#" aria-label="Name" placeholder="Your Name"
                                         required>
                                 </div>
                                 <div class="col-md-5">
-                                    <label for="interested-in">Position of interest<sup
+                                    <label for="interested-in" aria-labelledby="interested-in">Position of interest<sup
                                             class="mandatory">*</sup>:</label>
-                                    <select class="form-control" id="interested-in" required>
+                                    <select class="form-control" id="interested-in" title="Position of interest" required>
                                         <option selected disabled hidden value="">What are you interested in?</option>
                                         <option value="player">Player</option>
                                         <option value="coach">Coach</option>
@@ -329,33 +328,33 @@
 
                             <div class="row">
                                 <div class="col-md-7">
-                                    <label for="email">Email<sup class="mandatory">*</sup>:</label>
-                                    <input class="form-control" type="email" name="email" id="email"
+                                    <label for="email" aria-labelledby="email">Email<sup class="mandatory">*</sup>:</label>
+                                    <input class="form-control" title="Your Email" aria-label="Email" type="email" name="email" id="email"
                                         placeholder="Your Email" required>
                                 </div>
                                 <div class="col-md-5">
-                                    <label for="tel">Telephone number:</label>
-                                    <input class="form-control" id="tel" type="tel" name="tel"
+                                    <label for="tel" aria-labelledby="tel">Telephone number:</label>
+                                    <input class="form-control" aria-label="Phone Number" title="Phone number" id="tel" type="tel" name="tel"
                                         placeholder="Phone Number">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-7">
-                                    <label for="comment">Comment below<sup class="mandatory">*</sup>:</label>
-                                    <textarea class="form-control" id="comment" rows="4" cols="50"
-                                        placeholder="Comment or message us..." required></textarea>
+                                    <label for="comment" aria-labelledby="comment">Comment below<sup class="mandatory">*</sup>:</label>
+                                    <textarea class="form-control" id="comment" title="Comment or message here" rows="4" cols="50"
+                                        placeholder="Comment or message us..." aria-label="Comment or message" required></textarea>
                                 </div>
                                 <div class="col-md-5">
-                                    <label for="file">Attachment:</label>
-                                    <input class="form-control" id="file" type="file">
+                                    <label for="file" aria-labelledby="file">Attachment:</label>
+                                    <input class="form-control" title="Attach file here" aria-label="Attach File" id="file" type="file">
                                     <small><sup class="mandatory">*</sup>- This field is mandatory</small>
                                 </div>
                             </div>
                             <br>
 
 
-                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-primary" type="submit" value="Submit" title="Submit">
 
 
 
@@ -366,7 +365,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer aria-label="Footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -401,20 +400,20 @@
 
                     <div class="col-md-3">
                         <div class="center-btn">
-                            <a href="https://www.facebook.com/slsfyouth/">
+                            <a href="https://www.facebook.com/slsfyouth/" aria-label="Opens new tab: Subscribe to our Facebook channel" title="Opens new tab: Subscribe to our Facebook channel" target="_blank">
                                 <i class="fab fa-facebook-square"></i>
                             </a>
-                            <a href="https://www.instagram.com/slsfyouth/?hl=en-gb">
+                            <a href="https://www.instagram.com/slsfyouth/?hl=en-gb" aria-label="Opens new tab: Subscribe to our Instagram channel" title="Opens new tab: Subscribe to our Instagram channel" target="_blank">
                                 <i class="fab fa-instagram-square"></i>
                             </a>
-                            <a href="https://twitter.com/slsfyouth?lang=en">
+                            <a href="https://twitter.com/slsfyouth?lang=en" aria-label="Opens new tab: Subscribe to our Twitter channel" title="Opens new tab: Subscribe to our Twitter channel" target="_blank">
                                 <i class="fab fa-twitter-square"></i>
                             </a>
                         </div>
                     </div>
 
                     <div class="col-md-3">
-                        <div class="footer-logo-box"><img src="assets/images/slsf-transparent-logo.png" alt="footer-logo" class="footer-logo"></div>
+                        <div class="footer-logo-box"><img src="assets/images/slsf-transparent-logo.png" alt="St Lawrence FC logo" class="footer-logo"></div>
                     </div>
                 </div>
                 <p><small>©<span id="year"></span>Copyright</small></p>
