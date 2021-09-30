@@ -132,11 +132,34 @@ Images on this website are responsive, and doesn't suffer from interference from
 </table>
 
 <p>I tested in 2  different browsers and across multiple breakpoints to ensure responsiveness. I also used googletools inspect and check it worked well across all devices on there.<br><br>
-I checked and tested the Sign up form, the hover over states, the click through, the accessibility, the aria labels. I ensured that the form had the correct fields attributed to it (can't submit invalid email, etc)
+I checked and tested the Sign up form, the hover over states, the click through, the accessibility, the aria labels. I ensured that the form had the correct fields attributed to it (can't submit invalid email, etc).
+<br>
+I tested on: 
+OS Compatibility - Windows 7 & 10, Android 10.0 and MacOS Big Sur v11.2.3. It has not as yet been tested on other Operating Systems.
+<br><br>
+Devices - The devices used in testing include an Oppo X2 Lite, Samsung 10, Asus x555l
+<br><br>
+Chrome DevTools - This website was thoroughly tests for responsiveness on Chrome DevTools. Viewport sizes from small (e.g. iPhone5), to large (Desktop 1200px and above) were simulated.
 </p>
 
 <h2>Bugs</h2>
 <p>Solved bugs: When I deployed the code to the Github pages, I did notice that the images were quite heavy, so I had to resize and compress them, and reupload them. I also noticed that the St Lawrence navigation title wasn't showing well on the very smallest mobile screen, so I had to resize it for better for that specific breakpoint.</p>
 
 <h2>Validator testing</h2>
+<p>
+W3C Markup Validator - Home Page - Pass - No errors present<br>
+W3C CSS3 validator - Pass - No errors present<br>
+Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Perfrmance of the website due to the JS files loaded. <a href="assets/images/wireframes/lighthouse.png">Results shown here</a><br>
+<b>Unfixed bugs</b><br>
+All are largely related to performance issues. If I had more time, I'd more likely looks to reolsve those.
+
+<h2>Credits</h2>
+
+<b>Code</b><br>
+Bootstrap library was used to for the navbar, image carousel, form, grids and card components. It was also used for the grid layout and responsive design. I also used the guidelines and sample structure from the Love Running project from the Code Institute.
+
+
+
+
+</p>
 
