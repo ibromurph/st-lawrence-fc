@@ -344,6 +344,12 @@ th {
 	color: red
 }
 
+#info-email {
+	color:rgb(25, 1, 31);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 /*=====FOOTER SECTIN CSS =====*/
 footer {
 	width: 100%;
