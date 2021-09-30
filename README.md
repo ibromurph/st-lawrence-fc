@@ -1,1 +1,2 @@
-TBC IB
+<h1>St Lawrence School of Football</h1>
+<p>St Lawrence School of Football is an amateur, youth, community football club based in North West London. They are a club that have helped and developed many young talented footballers players, some even going on to play professionally in the football leagues. As a community charity-funded football club, they're always on the look out for local talent, both on and off the field. That means that they require both players, coaches and volunteers.
