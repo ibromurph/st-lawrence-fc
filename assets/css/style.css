@@ -27,7 +27,7 @@ img.logo {
 }
 
 
-/*------------ NAVIGATION LINKS------------*/
+/*------------ HEADER / NAVIGATION LINKS------------*/
 .bg-dark {
 	background-color: #000000 !important;
 }
@@ -54,6 +54,12 @@ img.logo {
 	background: #ffd200;
 	color: #000;
 }
+
+#nav-style-collapse
+{
+	margin: 0px auto;
+}
+
 
 /*------------ BANNER SECTION------------*/
 
@@ -155,6 +161,15 @@ img.logo {
 
 section.next-match {
 	background-color: #fff;
+}
+
+#home-or-away {
+	text-transform: uppercase;
+}
+
+#versus
+{
+	padding: 0px;"
 }
 
 /*=====ABOUT US SECTION CSS =====*/

@@ -35,7 +35,7 @@
                            <h4 id="siteheader">St Lawrence School of Football</h4>
                     <p id="tagline">Inspiring Excellence</p>
   </a>
-  <div style="margin: 0px auto; ">
+  <div id="nav-style-collapse">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -92,13 +92,13 @@
             <br>
             <div class="row">
                 <div class="col-md-5">
-                    <h3>HOME GAME</h3>
+                    <h3 id="home-or-away">Home game</h3>
                     <div class="row">
                         <div class="col-5">
                             <p class="teams">St Lawrence FC</p>
                             <img src="assets/images/slsf-badge.png" alt="home team badge" class="img-fluid">
                         </div>
-                        <div class="col-2" style="padding: 0px;">
+                        <div class="col-2" id="versus">
                             <h3>VS</h3>
                         </div>
                         <div class="col-5">
@@ -260,17 +260,17 @@
                     <h3>Training time</h3>
                     <table id="training-time">
                         <tr>
-                            <th>Day</th>
-                            <th>Time</th>
-                            <th>Location</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Location</th>
                         </tr>
                         <tr>
-                            <td>Saturday</td>
+                            <td scope="row">Saturday</td>
                             <td>10:30am - 12.30pm</td>
                             <td>West Hendon Playings Fields</td>
                         </tr>
                         <tr>
-                            <td>Tuesday</td>
+                            <td scope="row">Tuesday</td>
                             <td>6:30pm - 8.30pm</td>
                             <td>Capital City Academy</td>
                         </tr>
