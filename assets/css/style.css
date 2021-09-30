@@ -17,7 +17,7 @@
 
 body {
 	font-family: Lato, sans-serif;
-	font-weight: 300;
+	font-weight: 20;
 }
 
 
@@ -32,15 +32,16 @@ img.logo {
 	background-color: #000000 !important;
 }
 
-.navbar-brand h1 {
+#siteheader {
 	font-weight: bold;
 	color: #ffd200;
+	text-transform: uppercase;
 }
 
-.navbar-brand p {
-	font-size: 16px;
+#tagline {
 	letter-spacing: 2px;
 	margin: 0px;
+	text-transform: uppercase;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -96,7 +97,7 @@ img.logo {
 }
 
 #teaser-hero-copy {
-	margin: 4px 5rem;
+	margin: 0px 50px;
 }
 
 /*=====NEXT MATCH SECTION CSS =====*/
@@ -105,7 +106,7 @@ img.logo {
 	height: auto;
 	float: left;
 	background: #fff;
-	padding: 50px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
 }
 
 .next-match h2 {
@@ -159,8 +160,9 @@ section.next-match {
 	width: 100%;
 	height: auto;
 	float: left;
-	background: #e9e9e9;
-	padding: 50px 0px 100px 0px;
+	background: black;
+	padding: 100px 0px 100px 0px;
+	color: #ffd200;
 }
 
 .about-us h2 {
@@ -174,10 +176,18 @@ section.next-match {
 	margin-bottom: 20px;
 	text-align: center;
 	min-height: 200px;
+	color: #000;
 }
 
 .card h3 {
 	text-align: center;
+}
+
+.card-title {
+	font-weight: bold;
+	background-color: #ffd200;
+	border-radius: 5%;
+	
 }
 
 /*=====THE TEAM SECTION CSS =====*/
@@ -186,7 +196,7 @@ section.next-match {
 	height: auto;
 	float: left;
 	background: #fff;
-	padding: 50px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
 }
 
 .our-team h2 {
@@ -240,7 +250,7 @@ section.next-match {
 	height: auto;
 	float: left;
 	background: black;
-	padding: 50px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
 	color: #ffd200;
 }
 
@@ -342,6 +352,8 @@ footer p {
 	text-align: center;
 }
 
+
+
 /*====LARGE DEVICES=====*/
 @media screen and (min-width: 768px) {
 	.top-fixed {
@@ -352,6 +364,13 @@ footer p {
 		z-index: 1030;
 	}
 
+	.next-match {
+		width: 100%;
+		height: auto;
+		float: left;
+		background: #fff;
+		padding: 100px 0px 100px 0px;
+	}	
 }
 
 /*===== Mobile, tab and medium & small device =====*/
@@ -364,12 +383,13 @@ footer p {
 		background: url(../images/banner.jpg);
 		background-size: cover;
 		background-position: center;
-		padding: 160px 0px 160px 0px;
+		padding: 100px 0px 100px 0px;
 		background-color: #000000;
+		margin-left: 0px;
 	}
-
+	
 	.navbar-brand h1 {
-		font-size: 22px;
+		font-size: 15px;
 	}
 
 	.navbar-brand p {
