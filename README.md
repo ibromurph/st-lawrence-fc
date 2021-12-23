@@ -67,6 +67,80 @@
 <a href="assets/images/wireframes/Mobile UI.png">Mobile format</a>
 </p>
 
+
+## Features
+
+**Header**- There is a sticky navigation bar across all section of the main website so the user can easily navigate through the sections of the website
+
+- The logo is also ever present and is a link back to the top of the page if the user needs to get back to it quickly
+
+- When hovering over the navigation links they change to yellow and the text colour changes to black, letting the user know it is clickable
+
+- The navigation bar collapses into a hamburger menu when viewed on smaller devices such as mobiles and ipads.
+
+**Links** - All links in the header and footer that are hovered over change colour to notify the user of a link.
+
+- All images have an alternative text to help screen readers, or information if the image link is broken.
+
+**Buttons** - All buttons have the same style to help with consistency.
+
+**Responsiveness** - All pages are responsive and have the same functionality on different devices
+
+**Footer** - A footer navigation bar has been added at the bottom of the page so the user doesn't have to keep scrolling to the top to navigate the
+site.
+
+- Social links are grouped together so they can easily be located and the background changes colour when hovered over.
+
+### Main Page Features
+
+**Welcome to SLSF** - The main page has a hero section image with a call-to-action button that leads to the Join Us section of the page. The main purpose of this section is confirm to new users they've landed on the correct website and get new players to join the club!
+
+**Next Match** - This section of the page has details of the next match. This is for existing players/parents who want fast information on the location/details of the next game. There is a link to googlemaps which will help direct parents to the location of the game that week. There's also a brief scouting video on the opponent, taken from the last time the club played them.
+
+**About Us** - This About us section of the page has details of the club and its guiding principles. Using a card-grid system, with a teaser image, a title and some description card copy. 
+
+
+An image carousel that is responsive and changes depending on the viewport. The allows the cakes to be viewed in better detail,
+for example, in full screen width on a smartphone.
+
+**Customer Favourites** - Card elements display the current top three best selling cakes and both the image and text are linked to the cake page
+incase the user wants to order them.
+
+**Shop** - The final section is an external link to a shop where the user can buy baking equipment (currently lakeland) along with a carousel of
+images showing the user what equipment they may want to buy.
+
+### Cake Page Features
+
+If the user wants to see a specific cake in more detail, they can click on the 'Cake' link in the header or footer or on one of the images in the
+gallery or customer favourites section. This leads to the Cake page, which has an individual images of the cakes, each in their own section
+and a short description with a call-to-action button should the user which to order the cake.
+
+### Order Form
+
+Once the user click the 'Order Cake' button they will be led to the order form, which requires the fields to be completed before the form can be
+submitted
+
+### Future Features
+
+- **Video Tutorials** - After initially planning to have a video tutorial section with an embedded video player on the home page, however,
+  due to time restraints, this can be implemented at a later detailed
+
+- **Active Navigation Link** - The users experience would be enhanced if the page they were on stayed highlighted in the navigation bar.
+
+- **Quick Buy Option** - If the user knows what cake they would like to order, they can go straight to the order form, which would be more
+  efficient than clicking through
+
+- **Design a Cake** - A more flexible and interactive option where the user can input various cake flavours, buttercream and decoration to design
+  their own unique cake
+
+- **Testimonials** - Reviews from previous customers are a good way to get new users to trust a company.
+
+- **Cake Categories** - As cakes are added to the website, a dropdown menu clearly categorising the cakes so the visitor can easily find what they
+  are looking for may be required
+
+
+
+
 <h2>Surface</h2>
 <p>In order to highlight Join as the main focus/goal, I'll put that on a banner at the top, although this can always change, according to whatever the main goal is for that month. It could aslo act as a news carousel.<br><br>
 
