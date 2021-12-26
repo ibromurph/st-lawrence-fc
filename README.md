@@ -192,7 +192,7 @@ Chrome DevTools - This website was thoroughly tests for responsiveness on Chrome
 <p>
 W3C Markup Validator - Home Page - Pass - No errors present<br>
 W3C CSS3 validator - Pass - No errors present<br>
-Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Perfrmance of the website due to the JS files loaded. <a href="assets/images/wireframes/lighthouse.png">Results shown here</a><br>
+Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Performance of the website due to the JS files loaded and images needing fixed sizes. <a href="assets/images/wireframes/lighthouse-v2.png">Results shown here</a><br>
 <b>Unfixed bugs</b><br>
 All are largely related to performance issues. If I had more time, I'd more likely looks to reolsve those.
 
