@@ -204,7 +204,7 @@ This website was published using [GitHub Pages](https://pages.github.com/). The 
 
 1. Go to [Github](https://github.com/) and log in.
 2. Your repositories are listed on the left-hand side. Click on the repository that you want to open
-   [Repository for this project.](https://github.com/ibromurph/st-lawrence-fc)
+   [Repository for this project.](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version)
 3. Underneath the repository name are some headings: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights and Settings.
    Click on Settings.
 4. Scroll down until you see the heading 'GitHub Pages'
