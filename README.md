@@ -67,6 +67,49 @@
 <a href="assets/images/wireframes/Mobile UI.png">Mobile format</a>
 </p>
 
+
+## Features
+
+**Header**- There is a sticky navigation bar across all section of the main website so the user can easily navigate through the sections of the website
+
+- The logo is also ever present and is a link back to the top of the page if the user needs to get back to it quickly
+
+- When hovering over the navigation links they change to yellow and the text colour changes to black, letting the user know it is clickable
+
+- The navigation bar collapses into a hamburger menu when viewed on smaller devices such as mobiles and ipads.
+
+**Links** - All links in the header and footer that are hovered over change colour to notify the user of a link.
+
+- All images have an alternative text to help screen readers, or information if the image link is broken.
+
+**Buttons** - All buttons have the same style to help with consistency.
+
+**Responsiveness** - All pages are responsive and have the same functionality on different devices.
+
+**Footer** - A footer navigation bar has been added at the bottom of the page so the user doesn't have to keep scrolling to the top to navigate the
+site.
+
+- Social links are grouped together so they can easily be located and the background changes colour when hovered over.
+
+### Main Page Features
+
+**Welcome to SLSF** - The main page has a hero section image with a call-to-action button that leads to the Join Us section of the page. The main   purpose of this section is confirm to new users they've landed on the correct website and get new players to join the club!
+
+**Next Match section** - This section of the page has details of the next match. This is for existing players/parents who want fast information on the location/details of the next game. There is a link to googlemaps which will help direct parents to the location of the game that week. There's also a brief scouting video on the opponent, taken from the last time the club played them.
+
+**About Us section** - This About us section of the page has details of the club and its guiding principles. Using a card-grid system, with a teaser image, a title and some description card copy. 
+
+**The Team section** - This section includes a card carousel of the coaching team. The carousel autoplays and cycles through 3 slides. Each slide contains an image, title, subtitle and description.    
+
+**Join Us section** - This section details the training times in a table format and has a map of the training locations (using a Google maps).
+
+**Contact Us section** - This section includes a form, for players, coaches and volunteers to join the club. The form has validation checks on each field to ensure the something is entered and valid copy field is entered. On submission of the form, the user is directed to the official current slsf website homepage. This is a temporary measure. A future feature would include creating a submission-accepted page.
+
+### Future Feature
+
+**Player profile section** - In future, to showcase player talent, it might be nice to have a player profile section, where each player will have their name and statistics (goals/assists) shown on the website.
+
+
 <h2>Surface</h2>
 <p>In order to highlight Join as the main focus/goal, I'll put that on a banner at the top, although this can always change, according to whatever the main goal is for that month. It could aslo act as a news carousel.<br><br>
 
@@ -90,7 +133,7 @@ Images on this website are responsive, and doesn't suffer from interference from
 
 <b>Frameworks, Libraries & Programs Used</b>
 <ol>
-<li>Balsamiq: Used to create the wireframes<</li>
+<li>Balsamiq: Used to create the wireframes</li>
 <li>Google Fonts.</li>
 <li>Bootstrap: Used for custom components such as navigation bar, grids, carousels and cards</li>
 <li>Font Awesome: Used to add social icons</li>
@@ -149,17 +192,62 @@ Chrome DevTools - This website was thoroughly tests for responsiveness on Chrome
 <p>
 W3C Markup Validator - Home Page - Pass - No errors present<br>
 W3C CSS3 validator - Pass - No errors present<br>
-Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Perfrmance of the website due to the JS files loaded. <a href="assets/images/wireframes/lighthouse.png">Results shown here</a><br>
+Accessibilty - I can confirm the colours and fonts worked well and was easy to read by running through it in Lighthouse (in devtools). The only thing that may be an issue is the Performance of the website due to the JS files loaded and images needing fixed sizes. <a href="assets/images/wireframes/lighthouse-v2.png">Results shown here</a><br>
 <b>Unfixed bugs</b><br>
 All are largely related to performance issues. If I had more time, I'd more likely looks to reolsve those.
+
+## Deployment
+
+### Github Pages
+
+This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below:
+
+1. Go to [Github](https://github.com/) and log in.
+2. Your repositories are listed on the left-hand side. Click on the repository that you want to open
+   [Repository for this project.](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version)
+3. Underneath the repository name are some headings: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights and Settings.
+   Click on Settings.
+4. Scroll down until you see the heading 'GitHub Pages'
+5. Under source is a dropdown menu, click on it and select 'master'.
+6. The page will then reload and you will see the link of your published page displayed above the Source title.
+7. It may take a few minutes for the background of the link to turn green, but once it does, your site is published and you will be able to open it.
+
+### Forking The GitHub Repository
+
+Forking the GitHub Repository makes a copy of the original repository so that you can view and/or make changes without affecting the original
+repository. To do this:
+
+1. Go to [Github](https://github.com/) and log in.
+2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version))
+3. Above the "Settings" Button on the menu, on the right-hand side locate the "Fork" Button. It is next to the 'star' button.
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Cloning
+
+1. Go to [Github](https://github.com/) and log in.
+2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version))
+3. Under the repository name, click the green "Clone or download" button.
+4. To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
+5. Open a terminal and if you need to, change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3 on GitHub.
+
+`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+
+7. When you press Enter your local clone will be created.
 
 <h2>Credits</h2>
 
 <b>Code</b><br>
 Bootstrap library was used to for the navbar, image carousel, form, grids and card components. It was also used for the grid layout and responsive design. I also used the guidelines and sample structure from the Love Running project from the Code Institute.
 
+### Media
 
+- All images used were taken from [UnSplash](https://unsplash.com/) and [St Lawrence FC](https://slsf.co.uk/)
 
+### Acknowledgements
 
+- Thanks to St Lawrence SOF for their support/help in inspiring this project.
+- Thanks to Charles Murphy for his guidance and advice throughout.
+- Thanks my Mentor Chris Quinn for helping in ensuring I resubmit this coursework with the right sections included.
 </p>
 
