@@ -84,7 +84,7 @@
 
 **Buttons** - All buttons have the same style to help with consistency.
 
-**Responsiveness** - All pages are responsive and have the same functionality on different devices
+**Responsiveness** - All pages are responsive and have the same functionality on different devices.
 
 **Footer** - A footer navigation bar has been added at the bottom of the page so the user doesn't have to keep scrolling to the top to navigate the
 site.
@@ -103,7 +103,7 @@ site.
 
 **Join Us section** - This section details the training times in a table format and has a map of the training locations (using a Google maps).
 
-**Contact Us section** - This section includes a form, for players, coaches and volunteers to join the club. The form has validation checks on each field to ensure the something is entered and valid copy field is entered.
+**Contact Us section** - This section includes a form, for players, coaches and volunteers to join the club. The form has validation checks on each field to ensure the something is entered and valid copy field is entered. On submission of the form, the user is directed to the official current slsf website homepage. This is a temporary measure. A future feature would include creating a submission-accepted page.
 
 ### Future Feature
 
