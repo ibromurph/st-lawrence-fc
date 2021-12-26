@@ -218,14 +218,14 @@ Forking the GitHub Repository makes a copy of the original repository so that yo
 repository. To do this:
 
 1. Go to [Github](https://github.com/) and log in.
-2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version)
+2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version))
 3. Above the "Settings" Button on the menu, on the right-hand side locate the "Fork" Button. It is next to the 'star' button.
 4. You should now have a copy of the original repository in your GitHub account.
 
 ### Cloning
 
 1. Go to [Github](https://github.com/) and log in.
-2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version)
+2. Locate a Repository (this is the one for this project - [Repository](https://github.com/ibromurph/st-lawrence-fc/tree/commercial-version))
 3. Under the repository name, click the green "Clone or download" button.
 4. To clone the repository using HTTPS, copy the link under "Clone with HTTPS".
 5. Open a terminal and if you need to, change the current working directory to the location where you want the cloned directory to be made.
