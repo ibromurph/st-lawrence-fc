@@ -93,52 +93,21 @@ site.
 
 ### Main Page Features
 
-**Welcome to SLSF** - The main page has a hero section image with a call-to-action button that leads to the Join Us section of the page. The main purpose of this section is confirm to new users they've landed on the correct website and get new players to join the club!
+**Welcome to SLSF** - The main page has a hero section image with a call-to-action button that leads to the Join Us section of the page. The main   purpose of this section is confirm to new users they've landed on the correct website and get new players to join the club!
 
-**Next Match** - This section of the page has details of the next match. This is for existing players/parents who want fast information on the location/details of the next game. There is a link to googlemaps which will help direct parents to the location of the game that week. There's also a brief scouting video on the opponent, taken from the last time the club played them.
+**Next Match section** - This section of the page has details of the next match. This is for existing players/parents who want fast information on the location/details of the next game. There is a link to googlemaps which will help direct parents to the location of the game that week. There's also a brief scouting video on the opponent, taken from the last time the club played them.
 
-**About Us** - This About us section of the page has details of the club and its guiding principles. Using a card-grid system, with a teaser image, a title and some description card copy. 
+**About Us section** - This About us section of the page has details of the club and its guiding principles. Using a card-grid system, with a teaser image, a title and some description card copy. 
 
+**The Team section** - This section includes a card carousel of the coaching team. The carousel autoplays and cycles through 3 slides. Each slide contains an image, title, subtitle and description.    
 
-An image carousel that is responsive and changes depending on the viewport. The allows the cakes to be viewed in better detail,
-for example, in full screen width on a smartphone.
+**Join Us section** - This section details the training times in a table format and has a map of the training locations (using a Google maps).
 
-**Customer Favourites** - Card elements display the current top three best selling cakes and both the image and text are linked to the cake page
-incase the user wants to order them.
+**Contact Us section** - This section includes a form, for players, coaches and volunteers to join the club. The form has validation checks on each field to ensure the something is entered and valid copy field is entered.
 
-**Shop** - The final section is an external link to a shop where the user can buy baking equipment (currently lakeland) along with a carousel of
-images showing the user what equipment they may want to buy.
+### Future Feature
 
-### Cake Page Features
-
-If the user wants to see a specific cake in more detail, they can click on the 'Cake' link in the header or footer or on one of the images in the
-gallery or customer favourites section. This leads to the Cake page, which has an individual images of the cakes, each in their own section
-and a short description with a call-to-action button should the user which to order the cake.
-
-### Order Form
-
-Once the user click the 'Order Cake' button they will be led to the order form, which requires the fields to be completed before the form can be
-submitted
-
-### Future Features
-
-- **Video Tutorials** - After initially planning to have a video tutorial section with an embedded video player on the home page, however,
-  due to time restraints, this can be implemented at a later detailed
-
-- **Active Navigation Link** - The users experience would be enhanced if the page they were on stayed highlighted in the navigation bar.
-
-- **Quick Buy Option** - If the user knows what cake they would like to order, they can go straight to the order form, which would be more
-  efficient than clicking through
-
-- **Design a Cake** - A more flexible and interactive option where the user can input various cake flavours, buttercream and decoration to design
-  their own unique cake
-
-- **Testimonials** - Reviews from previous customers are a good way to get new users to trust a company.
-
-- **Cake Categories** - As cakes are added to the website, a dropdown menu clearly categorising the cakes so the visitor can easily find what they
-  are looking for may be required
-
-
+**Player profile section** - In future, to showcase player talent, it might be nice to have a player profile section, where each player will have their name and statistics (goals/assists) shown on the website.
 
 
 <h2>Surface</h2>
